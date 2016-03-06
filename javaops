@@ -17,3 +17,9 @@ public class Precedence {
 
 
  //prints False, not (true or true and true)
+ ------------------------------------------------------------------
+ //Ternary Conditional!
+ thrustFactor = 4
+ 
+ char liftAchieved =( thrustFactor >= 4) ? 'Y' : 'N';
+    System.out.println(liftAchieved)
