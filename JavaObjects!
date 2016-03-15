@@ -1,0 +1,16 @@
+Objects example 1 
+------------------------------------------------------------
+class Car {
+  int modelYear;                                            //This is the instance variable, for the class Car
+  public Car(int year){
+    modelYear = year;
+    }
+    public void startEngine() {                          // method for class car!, first introduction to object/class properties!
+        System.out.println("Vroom!");
+      }
+      public static void main(String[] args){
+          Car myFastCar = new Car(2007);                //this is the formed object, myFastCar, an instance of a class, with 1 property!
+          myFastCar.startEngine();                      //the method is called within the main method.
+}
+}
+---- Program prints "Vroom!"----
