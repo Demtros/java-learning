@@ -1,7 +1,3 @@
-int thisIsAWholeNumber = 87
-str IDontKnowHowToMakeStrings = "Is this a string?"
-
-System.out.println(thisIsAWholeNumber != IDontKnowHowToMakeStrings)
 
 
 
