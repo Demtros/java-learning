@@ -14,3 +14,24 @@ class Car {
 }
 }
 ---- Program prints "Vroom!"----
+
+public class Car 
+  {
+    private int modelYear;
+    
+    public Car( int year)
+    {
+      this.modelYear = year;
+    }
+    public void startEngine()
+    {
+      System.out.println("Vroom!");
+    }
+    public static void main(String[] args)
+      {
+          Car myFastCar = new Car(2007);
+          
+          myFastCar.startEngine();
+      }
+
+  }
